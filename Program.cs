@@ -41,7 +41,7 @@ else
 */
 
 //3
-
+/*
 Console.WriteLine("Input num day: ");
 string[] Days = {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"};
 string writeDay = Console.ReadLine();
@@ -55,6 +55,13 @@ else if(5 < dayNumber && dayNumber < 8)
 Console.WriteLine($"{dayNumber}-выходной день недели - {Days[dayNumber - 1]}");
 }
 else Console.WriteLine("Дня недели с таким номером не существует");
+*/
 
 
-
+//4
+Console.WriteLine("Input num1: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input num2: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+if (num1 * num1 == num2 || num1 / num2 == num2) Console.WriteLine("Yes");
+else Console.WriteLine("No");
